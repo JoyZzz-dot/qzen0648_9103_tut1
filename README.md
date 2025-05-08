@@ -1,36 +1,24 @@
 # qzen0648_9103_tut1
 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+# Quiz 8
 
-**Bold Text** or __Bold Text__
-*Italic Text* or _Italic Text_
+## Part 1: Imaging Technique Inspiration
 
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
+**Silk – Interactive Generative Art**  
+My inspiration comes from Silk, an interactive generative art piece that creates continuous, multi-layered spiral patterns. Each translucent stroke radiates outward from the centre, gradually building a glowing vortex of colour. This layered transparency and radial motion captures a sense of ongoing rotation and expanding energy—almost like a visual representation of the cosmos, fate, or emotional flow. The work’s rhythmic and evolving aesthetic strongly aligns with the atmosphere I hope to convey in my final project, offering available visual language that informs both the concept and structure of my creative coding design.
 
-1. First Item
-2. Second Item
-3. Third Item
+![An image of a character silk2 create](readmeImages/character.jpg)
 
-[Link Text](https://www.google.com)
+![An image of symmetries](readmeImages/symmetries.jpg)
 
 
-![An image of a cat](https://placecats.com/200/300)
+## Part 2: Coding Technique Exploration
 
-![An image of the Mona Lisa](readmeImages/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
+**p5.js 'rotate()','for loop' and Perlin Noise**  
+By shifting the canvas coordinate system to the centre and applying slight rotational changes each frame, a ‘for loop’ and Perlin Noise can be used to layer semi-transparent shapes in a way that produces a dynamic spiral effect. This approach, using p5.js’s built-in ‘translate()’ and ‘rotate()' functions, allows for a clear sense of radial movement and layered rhythm. It closely reflects the aesthetic seen in Silk, with its multi-layered, transparent rotation, and offers a practical technique for exploring ideas of energy, motion, and central focus in my final project’s visual design.
 
-```
-function helloWorld() {
-console.log("Hello, world!");
-}
-```
+![An image of silk2 can create](readmeImages/Silk2.png)
+![An code of perlin noise](readmeImages/perlinnoise.png)
 
-> This is a blockquote.
-
+Example code: [p5.js Silk 2](https://github.com/SipSup3314/Weave-Silk-Source-Code)
+Example code: [Silk – Interactive Generative Art_files](https://github.com/yt-theme/weavesilk.git)  
